@@ -1,6 +1,6 @@
 <template>
   <h1>Bienvenido al curso de Vue</h1>
-  <div class="“notas”">
+  <div class="notas">
     <nav>
       <p v-if="!notas.length">No hay notas guardadas</p>
       <ul v-if="notas.length">
